@@ -37,9 +37,12 @@ const GoStumble = (code, auth) => new Promise((resolve, reject) => {
 ██╔══██║██╔══╝  ██║        ██║   ██║   ██║██╔══██╗
 ██║  ██║███████╗╚██████╗   ██║   ╚██████╔╝██║  ██║
 ╚═╝  ╚═╝╚══════╝ ╚═════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝
-[?] ${chalk.bold('Choose a Number  :')}
-1. ${chalk.bold('get : 1 Crown ÷ 30 Trophy ÷ 35 Star ÷ 3000 Exp')}
-2. ${chalk.bold('get : 20 Trophy ÷ 30 Star ÷ 1500 Exp')}
+┌──────────────═━┈━═──────────────┐
+ ┏  ${chalk.bold('Choose a Number :')}
+ 1. ${chalk.bold('Round 1 Eliminated')}
+ 2. ${chalk.bold('Round 2 (Eliminated)')}
+ 3. ${chalk.bold('Round 3 (Winner)')}
+└──────────────═━┈━═──────────────┘
 `));
 
  const feature = rs.question(chalk.bold('[~] Enter a Number : '));
@@ -47,7 +50,7 @@ const GoStumble = (code, auth) => new Promise((resolve, reject) => {
  if (feature == '1') {
 
     const auth = rs.question(chalk.bold('[/] Enter your auth token : '));
-    console.log(chalk.bold('STARTING..'));
+    console.log(chalk.bold('■■■■■□□□'));
 
     while (true) {
 
@@ -64,17 +67,15 @@ const GoStumble = (code, auth) => new Promise((resolve, reject) => {
             const username = data.User.Username;
             const country = data.User.Country;
             const exp = data.User.Experience;
-            const tokenPass = data.User.BattlePass.PassTokens;
             const trophy = data.User.SkillRating;
             const crown = data.User.Crowns;
  
      console.log(chalk.bold(`\r
   ♨ [${moment().format('HH:mm:ss')}] ♨
 •>  ${(`Username : ${username}`)}
-•> ${(`Country : ${country}`)}
-•> ${(`Pass Star : ${tokenPass}`)}
-•> ${(`Exp Level : ${exp}`)}  
-•> ${(`crown : ${crown}`)}
+•> ${(`Country : ${country}`)}  
+•> ${(`Crown : ${crown}`)}
+•> ${(`Exp Level : ${exp}`)}
 •> ${(`Tropy : ${trophy}`)}  
 •> ${(`Status : ✓ Success`)}`));
         await sleep(3000);
@@ -94,7 +95,7 @@ const GoStumble = (code, auth) => new Promise((resolve, reject) => {
  } else if (feature == '2') {
 
     const auth = rs.question(chalk.bold('[/] Enter your auth token : '));
-    console.log(chalk.bold('STARTING..'));
+    console.log(chalk.bold('■■■■■□□□'));
 
     while (true) {
 
@@ -111,14 +112,12 @@ const GoStumble = (code, auth) => new Promise((resolve, reject) => {
             const username = data.User.Username;
             const country = data.User.Country;
             const exp = data.User.Experience;
-            const tokenPass = data.User.BattlePass.PassTokens;
             const trophy = data.User.SkillRating;
                  
      console.log(chalk.blue(chalk.bold(`\r
   ♨ [${moment().format('HH:mm:ss')}] ♨
 •> ${(`Username : ${username}`)}
 •> ${(`Country : ${country}`)}
-•> ${(`Pass Star : ${tokenPass}`)}
 •> ${(`Exp Level : ${exp}`)}  
 •> ${(`Tropy : ${trophy}`)}  
 •> ${(`Status : ✓ Success`)}`));
