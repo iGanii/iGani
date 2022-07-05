@@ -112,7 +112,7 @@ const GoStumble = (code, auth) => new Promise((resolve, reject) => {
             const exp = data.User.Experience;
             const trophy = data.User.SkillRating;
                  
-     console.log(chalk.blue(chalk.bold(`\r
+     console.log(chalk.bold(`\r
   ♨ [${moment().format('HH:mm:ss')}] ♨
 •> ${(`Username : ${username}`)}
 •> ${(`Country : ${country}`)}
