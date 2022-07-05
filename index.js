@@ -76,7 +76,7 @@ ${(chalk.blue(chalk.bold('╚═════════════════
 •> ${(`Exp Level : ${exp}`)}
 •> ${(`Tropy : ${trophy}`)}  
 •> ${(`Status : ✓ Success`)}`)));
-        await sleep(1);
+        await sleep(2500);
 
     } else if (result == 'BANNED') {
 
@@ -119,7 +119,7 @@ ${(chalk.blue(chalk.bold('╚═════════════════
 •> ${(`Exp Level : ${exp}`)}  
 •> ${(`Tropy : ${trophy}`)}  
 •> ${(`Status : ✓ Success`)}`)));
-        await sleep(1);
+        await sleep(2500);
 
     } else if (result == 'BANNED') {
 
@@ -164,7 +164,7 @@ ${(chalk.blue(chalk.bold('╚═════════════════
 •> ${(`Crown : ${crown}`)}
 •> ${(`Tropy : ${trophy}`)}  
 •> ${(`Status : ✓ Success`)}`)));
-        await sleep(1);
+        await sleep(2500);
 
     } else if (result == 'BANNED') {
 
