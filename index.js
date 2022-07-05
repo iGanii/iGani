@@ -38,11 +38,11 @@ const GoStumble = (code, auth) => new Promise((resolve, reject) => {
 ██║  ██║███████╗╚██████╗   ██║   ╚██████╔╝██║  ██║
 ╚═╝  ╚═╝╚══════╝ ╚═════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝
 ${(chalk.blue(chalk.bold('╔═══════════════▣◎▣═══════════════╗')))} 
-${(chalk.yellow(chalk.bold('┏ Choose a Number')))}
+${(chalk.red(chalk.bold('[?]')))}  ${(chalk.yellow(chalk.bold('Choose a Number')))}
 
-${(chalk.yellow(chalk.bold('1. Round 1 Eliminated')))}
-${(chalk.yellow(chalk.bold('2. Round 2 Eliminated')))}
-${(chalk.yellow(chalk.bold('3. Round 3 Winner')))}
+${(chalk.red(chalk.bold('1.')))} ${(chalk.yellow(chalk.bold('Round 1 Eliminated')))}
+${(chalk.red(chalk.bold('2.')))} ${(chalk.yellow(chalk.bold('Round 2 Eliminated')))}
+${(chalk.red(chalk.bold('3.')))} ${(chalk.yellow(chalk.bold('Round 3 Winner')))}
 ${(chalk.blue(chalk.bold('╚═══════════════▣◎▣═══════════════╝')))}
 `)));
 
