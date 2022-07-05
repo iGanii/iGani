@@ -2,10 +2,7 @@ const fetch = require('node-fetch');
 const moment = require('moment');
 const chalk = require('chalk');
 const rs = require('readline-sync');
-
-function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
-}
+const delay = require('delay');
 
 const GoStumble = (code, auth) => new Promise((resolve, reject) => {
 
@@ -40,7 +37,7 @@ const GoStumble = (code, auth) => new Promise((resolve, reject) => {
 ${(chalk.blue(chalk.bold('╔════════════════════▣◎▣════════════════════╗')))} 
  ${(chalk.red(chalk.bold('[?]')))} ${(chalk.yellow(chalk.bold('Choose a Number')))}  ${(chalk.blue(chalk.bold('┃')))} ${(chalk.red(chalk.bold('•')))} ${(chalk.yellow(chalk.bold('Author : HectorV2')))}
  ${(chalk.red(chalk.bold('1.')))} ${(chalk.yellow(chalk.bold('Round 1 Eliminate')))} ${(chalk.blue(chalk.bold('┃')))} ${(chalk.red(chalk.bold('•')))} ${(chalk.yellow(chalk.bold('Discord : Vicenzo')))}
- ${(chalk.red(chalk.bold('2.')))} ${(chalk.yellow(chalk.bold('Round 2 Eliminate')))} ${(chalk.blue(chalk.bold('┃')))} ${(chalk.red(chalk.bold('•')))} ${(chalk.yellow(chalk.bold('Wa : 085706xxxxx')))}
+ ${(chalk.red(chalk.bold('2.')))} ${(chalk.yellow(chalk.bold('Round 2 Eliminate')))} ${(chalk.blue(chalk.bold('┃')))} ${(chalk.red(chalk.bold('•')))} ${(chalk.yellow(chalk.bold('Wa : 085706058445')))}
  ${(chalk.red(chalk.bold('3.')))} ${(chalk.yellow(chalk.bold('Round 3 Winner')))}    ${(chalk.blue(chalk.bold('┃')))}
 ${(chalk.blue(chalk.bold('╚════════════════════▣◎▣════════════════════╝')))}
 `)));
@@ -50,6 +47,7 @@ ${(chalk.blue(chalk.bold('╚═════════════════
  if (feature == '1') {
 
     const auth = rs.question(chalk.blue(chalk.bold('[+] Enter your auth keys : ')));
+    const time = rs.question(chalk.blue(chalk.bold('[+] Enter Delay In Milisecond : ')));
     console.log(chalk.blue(chalk.bold('■■■■■□□□')));
 
     while (true) {
@@ -76,7 +74,7 @@ ${(chalk.blue(chalk.bold('╚═════════════════
 •> ${(`Exp Level : ${exp}`)}
 •> ${(`Tropy : ${trophy}`)}  
 •> ${(`Status : ✓ Success`)}`)));
-        await sleep(2500);
+        await delay(time)
 
     } else if (result == 'BANNED') {
 
@@ -93,6 +91,7 @@ ${(chalk.blue(chalk.bold('╚═════════════════
  } else if (feature == '2') {
 
     const auth = rs.question(chalk.blue(chalk.bold('[+] Enter your auth Keys : ')));
+    const time = rs.question(chalk.blue(chalk.bold('[+] Enter Delay In Milisecond : ')));
     console.log(chalk.blue(chalk.bold('■■■■■□□□')));
 
     while (true) {
@@ -119,7 +118,7 @@ ${(chalk.blue(chalk.bold('╚═════════════════
 •> ${(`Exp Level : ${exp}`)}  
 •> ${(`Tropy : ${trophy}`)}  
 •> ${(`Status : ✓ Success`)}`)));
-        await sleep(2500);
+        await delay(time)
 
     } else if (result == 'BANNED') {
 
@@ -136,6 +135,7 @@ ${(chalk.blue(chalk.bold('╚═════════════════
  } else if (feature == '3') {
 
     const auth = rs.question(chalk.blue(chalk.bold('[+] Enter your auth keys : ')));
+    const time = rs.question(chalk.blue(chalk.bold('[+] Enter Delay In Milisecond : ')));
     console.log(chalk.blue(chalk.bold('■■■■■□□□')));
 
     while (true) {
@@ -164,7 +164,7 @@ ${(chalk.blue(chalk.bold('╚═════════════════
 •> ${(`Crown : ${crown}`)}
 •> ${(`Tropy : ${trophy}`)}  
 •> ${(`Status : ✓ Success`)}`)));
-        await sleep(2500);
+        await delay(time)
 
     } else if (result == 'BANNED') {
 
@@ -180,7 +180,7 @@ ${(chalk.blue(chalk.bold('╚═════════════════
   
  } else {
 
-     console.log(chalk.redbright(chalk.Bold(`Enter a Number`)));
+     console.log(chalk.redbright(chalk.Bold(`Enter a Number `)));
 
  }
     
