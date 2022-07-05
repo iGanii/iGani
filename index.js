@@ -38,15 +38,14 @@ const GoStumble = (code, auth) => new Promise((resolve, reject) => {
 ██║  ██║███████╗╚██████╗   ██║   ╚██████╔╝██║  ██║
 ╚═╝  ╚═╝╚══════╝ ╚═════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝
 ${(chalk.blue(chalk.bold('╔════════════════════▣◎▣════════════════════╗')))} 
-  ${(chalk.red(chalk.bold('[?]')))} ${(chalk.yellow(chalk.bold('Choose a Number')))}
-
-  ${(chalk.red(chalk.bold('1.')))} ${(chalk.yellow(chalk.bold('Round 1 Eliminated')))}
-  ${(chalk.red(chalk.bold('2.')))} ${(chalk.yellow(chalk.bold('Round 2 Eliminated')))}
+  ${(chalk.red(chalk.bold('[?]')))} ${(chalk.yellow(chalk.bold('Choose a Number')))} ${(chalk.red(chalk.bold('•')))} ${(chalk.yellow(chalk.bold('Author : HectorV2')))}
+  ${(chalk.red(chalk.bold('1.')))} ${(chalk.yellow(chalk.bold('Round 1 Eliminate')))} ${(chalk.red(chalk.bold('•')))} ${(chalk.yellow(chalk.bold('Disccord : Vicenzo#3819')))}
+  ${(chalk.red(chalk.bold('2.')))} ${(chalk.yellow(chalk.bold('Round 2 Eliminate')))} ${(chalk.red(chalk.bold('•')))} ${(chalk.yellow(chalk.bold('Wa : 085706xxxxx')))}
   ${(chalk.red(chalk.bold('3.')))} ${(chalk.yellow(chalk.bold('Round 3 Winner')))}
 ${(chalk.blue(chalk.bold('╚════════════════════▣◎▣════════════════════╝')))}
 `)));
 
- const feature = rs.question(chalk.bold('[~] Enter a Number : '));
+ const feature = rs.question(chalk.blue(chalk.bold('[~] Enter a Number : ')));
 
  if (feature == '1') {
 
