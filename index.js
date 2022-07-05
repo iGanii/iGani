@@ -49,7 +49,7 @@ const GoStumble = (code, auth) => new Promise((resolve, reject) => {
 
  if (feature == '1') {
 
-    const auth = rs.question(chalk.bold('[/] Enter your auth token : '));
+    const auth = rs.question(chalk.bold('[+] Enter your auth token : '));
     console.log(chalk.bold('■■■■■□□□'));
 
     while (true) {
@@ -92,7 +92,7 @@ const GoStumble = (code, auth) => new Promise((resolve, reject) => {
         
  } else if (feature == '2') {
 
-    const auth = rs.question(chalk.bold('[/] Enter your auth token : '));
+    const auth = rs.question(chalk.bold('[+] Enter your auth token : '));
     console.log(chalk.bold('■■■■■□□□'));
 
     while (true) {
@@ -180,7 +180,7 @@ const GoStumble = (code, auth) => new Promise((resolve, reject) => {
   
  } else {
 
-     console.log(chalk.redbright(chalk.Bold (`Wrong feature !`)));
+     console.log(chalk.redbright(chalk.Bold(`Enter a Number`)));
 
  }
     
