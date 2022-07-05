@@ -17,14 +17,14 @@ const GoStumble = (code, auth) => new Promise((resolve, reject) => {
           'Accept-Encoding': 'gzip',
           'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 11; Infinix X6511B Build/RP1A.201005.001)',
       }
-})
-.then(res => res.text())
-.then(data=> {
-resolve(data);
-})
-.catch(err => {
-    reject(err);
-});
+  })
+    .then(res => res.text())
+    .then(data => {
+      resolve(data);
+    })
+    .catch(err => {
+      reject(err);
+    });
 
 });
 
@@ -136,51 +136,6 @@ resolve(data);
       }
   }
   
- } else if (feature == '3') {
-
-    const auth = rs.question(chalk.bold('[/] Enter your auth token : '));
-    console.log(chalk.bold('STARTING..'));
-
-    while (true) {
-
-        var code = '3';
-        const result = await GoStumble(code, auth);
-        if (!result) {
-
-            console.log(chalk.redBright(chalk.bold(`Auth Sudah Expired !`)));
-            break;
-
-        } else if (result.includes('User')) {
-
-            const data = JSON.parse(result);
-            const username = data.User.Username;
-            const country = data.User.Country;
-            const exp = data.User.Experience;
-            const tokenPass = data.User.BattlePass.PassTokens;
-            const trophy = data.User.SkillRating;
-                
-     console.log(chalk.bold(`\r
-  ♨ [${moment().format('HH:mm:ss')}] ♨
-•> ${(`Username : ${username}`)}
-•> ${(`Country : ${country}`)}
-•> ${(`Pass Star : ${tokenPass}`)}
-•> ${(`Exp Level : ${exp}`)}  
-•> ${(`Tropy : ${trophy}`)}  
-•> ${(`Status : ✓ Success`)}`));
-        await sleep(3000);
-
-    } else if (result == 'BANNED') {
-
-        console.log(chalk.redBright(chalk.bold(`Your Account Has Been Banned !`)));
-        break;
-                
-    } else if (result == 'SERVER_ERROR') {
-
-        continue;
-                
-      }
-  }
-
  } else {
 
      console.log(chalk.redbright(chalk.Bold (`Wrong feature !`)));
