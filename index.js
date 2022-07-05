@@ -16,7 +16,7 @@ const GoStumble = (code, auth) => new Promise((resolve, reject) => {
           'use_response_compression': 'true',
           'Accept-Encoding': 'gzip',
           'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 11; Infinix X6511B Build/RP1A.201005.001)',
-    }
+       }
   })
     .then(res => res.text())
     .then(data => {
