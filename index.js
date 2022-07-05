@@ -39,10 +39,10 @@ const GoStumble = (code, auth) => new Promise((resolve, reject) => {
 ╚═╝  ╚═╝╚══════╝ ╚═════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝
 [?] ${chalk.bold('Choose a Number  :')}
 1. ${chalk.bold('get : 1 Crown ÷ 30 Trophy ÷ 35 Star ÷ 3000 Exp')}
-2. ${chalk.bold('get : 20 Trophy ÷ 30 Star ÷ 1500 Exp')
+2. ${chalk.bold('get : 20 Trophy ÷ 30 Star ÷ 1500 Exp')}
 `));
 
- const feature = rs.question(chalk.bold('[~] Enter a Number 1/2/3 : '));
+ const feature = rs.question(chalk.bold('[~] Enter a Number : '));
 
  if (feature == '1') {
 
