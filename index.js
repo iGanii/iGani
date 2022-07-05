@@ -54,7 +54,7 @@ const GoStumble = (code, auth) => new Promise((resolve, reject) => {
 
     while (true) {
 
-        var code = '3';
+        var code = '1';
         const result = await GoStumble(code, auth);
         if (!result) {
 
@@ -68,17 +68,15 @@ const GoStumble = (code, auth) => new Promise((resolve, reject) => {
             const country = data.User.Country;
             const exp = data.User.Experience;
             const trophy = data.User.SkillRating;
-            const crown = data.User.Crowns;
  
      console.log(chalk.bold(`\r
   ♨ [${moment().format('HH:mm:ss')}] ♨
-•>  ${(`Username : ${username}`)}
+•> ${(`Username : ${username}`)}
 •> ${(`Country : ${country}`)}  
-•> ${(`Crown : ${crown}`)}
 •> ${(`Exp Level : ${exp}`)}
 •> ${(`Tropy : ${trophy}`)}  
 •> ${(`Status : ✓ Success`)}`));
-        await sleep(3000);
+        await sleep(1);
 
     } else if (result == 'BANNED') {
 
@@ -121,7 +119,52 @@ const GoStumble = (code, auth) => new Promise((resolve, reject) => {
 •> ${(`Exp Level : ${exp}`)}  
 •> ${(`Tropy : ${trophy}`)}  
 •> ${(`Status : ✓ Success`)}`));
-        await sleep(3000);
+        await sleep(1);
+
+    } else if (result == 'BANNED') {
+
+        console.log(chalk.redBright(chalk.bold(`Your Account Has Been Banned !`)));
+        break;
+                
+    } else if (result == 'SERVER_ERROR') {
+
+        continue;
+                
+      }
+  }
+
+ } else if (feature == '3') {
+
+    const auth = rs.question(chalk.bold('[/] Enter your auth token : '));
+    console.log(chalk.bold('■■■■■□□□'));
+
+    while (true) {
+
+        var code = '3';
+        const result = await GoStumble(code, auth);
+        if (!result) {
+
+            console.log(chalk.redBright(chalk.bold(`Auth Sudah Expired !`)));
+            break;
+
+        } else if (result.includes('User')) {
+
+            const data = JSON.parse(result);
+            const username = data.User.Username;
+            const country = data.User.Country;
+            const exp = data.User.Experience;
+            const trophy = data.User.SkillRating;
+            const crown = data.User.Crowns;
+ 
+     console.log(chalk.bold(`\r
+  ♨ [${moment().format('HH:mm:ss')}] ♨
+•> ${(`Username : ${username}`)}
+•> ${(`Country : ${country}`)}
+•> ${(`Exp Level : ${exp}`)}  
+•> ${(`Crown : ${crown}`)}
+•> ${(`Tropy : ${trophy}`)}  
+•> ${(`Status : ✓ Success`)}`));
+        await sleep(1);
 
     } else if (result == 'BANNED') {
 
