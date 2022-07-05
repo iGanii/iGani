@@ -1,6 +1,7 @@
 const fetch = require('node-fetch');
 const moment = require('moment');
 const chalk = require('chalk');
+const gradient = require('gradient-string')
 const rs = require('readline-sync');
 const delay = require('delay');
 
@@ -42,7 +43,7 @@ ${(chalk.blue(chalk.bold('╔═════════════════
 ${(chalk.blue(chalk.bold('╚════════════════════▣◎▣════════════════════╝')))}
 `)));
 
- const feature = rs.question(chalk.blue(chalk.bold('[~] Enter a Number : ')));
+ const feature = rs.question(gradient('red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet')(chalk.bold('[~] Enter a Number : ')));
 
  if (feature == '1') {
 
