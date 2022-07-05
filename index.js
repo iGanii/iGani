@@ -41,7 +41,7 @@ ${(chalk.blue(chalk.bold('╔═════════════════
  ${(chalk.red(chalk.bold('[?]')))} ${(chalk.yellow(chalk.bold('Choose a Number')))}  ${(chalk.blue(chalk.bold('┃')))} ${(chalk.red(chalk.bold('•')))} ${(chalk.yellow(chalk.bold('Author : HectorV2')))}
  ${(chalk.red(chalk.bold('1.')))} ${(chalk.yellow(chalk.bold('Round 1 Eliminate')))} ${(chalk.blue(chalk.bold('┃')))} ${(chalk.red(chalk.bold('•')))} ${(chalk.yellow(chalk.bold('Discord : Vicenzo')))}
  ${(chalk.red(chalk.bold('2.')))} ${(chalk.yellow(chalk.bold('Round 2 Eliminate')))} ${(chalk.blue(chalk.bold('┃')))} ${(chalk.red(chalk.bold('•')))} ${(chalk.yellow(chalk.bold('Wa : 085706xxxxx')))}
- ${(chalk.red(chalk.bold('3.')))} ${(chalk.yellow(chalk.bold('Round 3 Winner')))}
+ ${(chalk.red(chalk.bold('3.')))} ${(chalk.yellow(chalk.bold('Round 3 Winner')))}    ${(chalk.blue(chalk.bold('┃')))}
 ${(chalk.blue(chalk.bold('╚════════════════════▣◎▣════════════════════╝')))}
 `)));
 
@@ -49,8 +49,8 @@ ${(chalk.blue(chalk.bold('╚═════════════════
 
  if (feature == '1') {
 
-    const auth = rs.question(chalk.bold('[+] Enter your auth token : '));
-    console.log(chalk.bold('■■■■■□□□'));
+    const auth = rs.question(chalk.blue(chalk.bold('[+] Enter your auth keys : ')));
+    console.log(chalk.blue(chalk.bold('■■■■■□□□')));
 
     while (true) {
 
@@ -69,13 +69,13 @@ ${(chalk.blue(chalk.bold('╚═════════════════
             const exp = data.User.Experience;
             const trophy = data.User.SkillRating;
  
-     console.log(chalk.bold(`\r
+     console.log(chalk.blue(chalk.bold(`\r
   ♨ [${moment().format('HH:mm:ss')}] ♨
 •> ${(`Username : ${username}`)}
 •> ${(`Country : ${country}`)}  
 •> ${(`Exp Level : ${exp}`)}
 •> ${(`Tropy : ${trophy}`)}  
-•> ${(`Status : ✓ Success`)}`));
+•> ${(`Status : ✓ Success`)}`)));
         await sleep(1);
 
     } else if (result == 'BANNED') {
@@ -92,8 +92,8 @@ ${(chalk.blue(chalk.bold('╚═════════════════
         
  } else if (feature == '2') {
 
-    const auth = rs.question(chalk.bold('[+] Enter your auth token : '));
-    console.log(chalk.bold('■■■■■□□□'));
+    const auth = rs.question(chalk.blue(chalk.bold('[+] Enter your auth Keys : ')));
+    console.log(chalk.blue(chalk.bold('■■■■■□□□')));
 
     while (true) {
 
@@ -112,13 +112,13 @@ ${(chalk.blue(chalk.bold('╚═════════════════
             const exp = data.User.Experience;
             const trophy = data.User.SkillRating;
                  
-     console.log(chalk.bold(`\r
+     console.log(chalk.blue(chalk.bold(`\r
   ♨ [${moment().format('HH:mm:ss')}] ♨
 •> ${(`Username : ${username}`)}
 •> ${(`Country : ${country}`)}
 •> ${(`Exp Level : ${exp}`)}  
 •> ${(`Tropy : ${trophy}`)}  
-•> ${(`Status : ✓ Success`)}`));
+•> ${(`Status : ✓ Success`)}`)));
         await sleep(1);
 
     } else if (result == 'BANNED') {
@@ -135,8 +135,8 @@ ${(chalk.blue(chalk.bold('╚═════════════════
 
  } else if (feature == '3') {
 
-    const auth = rs.question(chalk.bold('[/] Enter your auth token : '));
-    console.log(chalk.bold('■■■■■□□□'));
+    const auth = rs.question(chalk.blue(chalk.bold('[+] Enter your auth keys : ')));
+    console.log(chalk.blue(chalk.bold('■■■■■□□□')));
 
     while (true) {
 
@@ -156,14 +156,14 @@ ${(chalk.blue(chalk.bold('╚═════════════════
             const trophy = data.User.SkillRating;
             const crown = data.User.Crowns;
  
-     console.log(chalk.bold(`\r
+     console.log(chalk.blue(chalk.bold(`\r
   ♨ [${moment().format('HH:mm:ss')}] ♨
 •> ${(`Username : ${username}`)}
 •> ${(`Country : ${country}`)}
 •> ${(`Exp Level : ${exp}`)}  
 •> ${(`Crown : ${crown}`)}
 •> ${(`Tropy : ${trophy}`)}  
-•> ${(`Status : ✓ Success`)}`));
+•> ${(`Status : ✓ Success`)}`)));
         await sleep(1);
 
     } else if (result == 'BANNED') {
