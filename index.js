@@ -1,1 +1,132 @@
-function _0x1538(_0x359a09,_0x298738){const _0xe81593=_0xe815();return _0x1538=function(_0x1538fe,_0x2e7c15){_0x1538fe=_0x1538fe-0xf5;let _0x2dbfaa=_0xe81593[_0x1538fe];return _0x2dbfaa;},_0x1538(_0x359a09,_0x298738);}const _0x500488=_0x1538;function _0xe815(){const _0xa5f12f=['format','Discord\x20:\x20Vicenzo','bold','Country','Auth\x20Sudah\x20Expired\x20!','chalk','question','yellow','■■■■■□□□','Round\x203\x20Winner','181rkivkd','╔════════════════════▣◎▣════════════════════╗','then','2273640DnDGxX','SkillRating','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Status\x20:\x20✓\x20Success','1150316fcWJuJ','Username\x20:\x20','Tropy\x20:\x20',']\x20♨\x0a•>\x20','includes','parse','[+]\x20Enter\x20Delay\x20In\x20Milisecond\x20:\x20','Username','3870905mtgnch','Dalvik/2.1.0\x20(Linux;\x20U;\x20Android\x2011;\x20Infinix\x20X6511B\x20Build/RP1A.201005.001)','log','3325987fYagAY','Crowns','\x0a•>\x20','BANNED','gzip','Your\x20Account\x20Has\x20Been\x20Banned\x20!','\x20\x20\x0a•>\x20','\x0a██╗\x20\x20██╗███████╗\x20██████╗████████╗\x20██████╗\x20██████╗\x20\x0a██║\x20\x20██║██╔════╝██╔════╝╚══██╔══╝██╔═══██╗██╔══██╗\x0a███████║█████╗\x20\x20██║\x20\x20\x20\x20\x20\x20\x20\x20██║\x20\x20\x20██║\x20\x20\x20██║██████╔╝\x0a██╔══██║██╔══╝\x20\x20██║\x20\x20\x20\x20\x20\x20\x20\x20██║\x20\x20\x20██║\x20\x20\x20██║██╔══██╗\x0a██║\x20\x20██║███████╗╚██████╗\x20\x20\x20██║\x20\x20\x20╚██████╔╝██║\x20\x20██║\x0a╚═╝\x20\x20╚═╝╚══════╝\x20╚═════╝\x20\x20\x20╚═╝\x20\x20\x20\x20╚═════╝\x20╚═╝\x20\x20╚═╝\x0a','477CBsgJk','3yOryFj','SERVER_ERROR','6LwIHEl','Experience','http://kitkabackend.eastus.cloudapp.azure.com:5010/round/finishv2/','Author\x20:\x20HectorV2','true','redBright','\x0d\x0a\x20\x20♨\x20[','13468NyOJVz','catch','HH:mm:ss','magenta','Choose\x20a\x20Number','User','blue','242570WGrBwg','node-fetch','Crown\x20:\x20','red','delay','.\x20\x20\x20','[?]','[+]\x20Enter\x20your\x20auth\x20keys\x20:\x20','text','6246152wqwNUI'];_0xe815=function(){return _0xa5f12f;};return _0xe815();}(function(_0x3df5ea,_0x3d7e9f){const _0x5633e4=_0x1538,_0x148709=_0x3df5ea();while(!![]){try{const _0x572cca=-parseInt(_0x5633e4(0x104))/0x1*(parseInt(_0x5633e4(0x128))/0x2)+-parseInt(_0x5633e4(0x11f))/0x3*(parseInt(_0x5633e4(0x10b))/0x4)+parseInt(_0x5633e4(0x113))/0x5*(parseInt(_0x5633e4(0x121))/0x6)+parseInt(_0x5633e4(0x116))/0x7+parseInt(_0x5633e4(0x107))/0x8+-parseInt(_0x5633e4(0x11e))/0x9*(-parseInt(_0x5633e4(0x12f))/0xa)+-parseInt(_0x5633e4(0xf9))/0xb;if(_0x572cca===_0x3d7e9f)break;else _0x148709['push'](_0x148709['shift']());}catch(_0x581323){_0x148709['push'](_0x148709['shift']());}}}(_0xe815,0xb5db3));const fetch=require(_0x500488(0x130)),moment=require('moment'),chalk=require(_0x500488(0xff)),rs=require('readline-sync'),delay=require(_0x500488(0x133)),GoStumble=(_0x14a6b8,_0x334141)=>new Promise((_0x15ebfb,_0x1f42da)=>{const _0x86d7a3=_0x500488;fetch(_0x86d7a3(0x123)+_0x14a6b8,{'method':'GET','headers':{'authorization':_0x334141,'use_response_compression':_0x86d7a3(0x125),'Accept-Encoding':_0x86d7a3(0x11a),'User-Agent':_0x86d7a3(0x114)}})['then'](_0x5d5a9c=>_0x5d5a9c[_0x86d7a3(0xf8)]())[_0x86d7a3(0x106)](_0x5ee4d7=>{_0x15ebfb(_0x5ee4d7);})[_0x86d7a3(0x129)](_0x31f760=>{_0x1f42da(_0x31f760);});});((async()=>{const _0x12ec84=_0x500488;console['log'](chalk[_0x12ec84(0x12b)](chalk[_0x12ec84(0xfc)](_0x12ec84(0x11d)+chalk[_0x12ec84(0x12e)](chalk[_0x12ec84(0xfc)](_0x12ec84(0x105)))+'\x20\x0a\x20'+chalk[_0x12ec84(0x132)](chalk[_0x12ec84(0xfc)](_0x12ec84(0xf6)))+'\x20'+chalk[_0x12ec84(0x101)](chalk['bold'](_0x12ec84(0x12c)))+'\x20\x20'+chalk['blue'](chalk[_0x12ec84(0xfc)]('┃'))+'\x20'+chalk[_0x12ec84(0x132)](chalk[_0x12ec84(0xfc)]('•'))+'\x20'+chalk[_0x12ec84(0x101)](chalk['bold'](_0x12ec84(0x124)))+'\x0a\x20'+chalk['red'](chalk[_0x12ec84(0xfc)]('1.'))+'\x20'+chalk[_0x12ec84(0x101)](chalk[_0x12ec84(0xfc)](_0x12ec84(0x103)))+_0x12ec84(0xf5)+chalk[_0x12ec84(0x12e)](chalk[_0x12ec84(0xfc)]('┃'))+'\x20'+chalk[_0x12ec84(0x132)](chalk[_0x12ec84(0xfc)]('•'))+'\x20'+chalk[_0x12ec84(0x101)](chalk[_0x12ec84(0xfc)](_0x12ec84(0xfb)))+'\x0a\x20'+chalk[_0x12ec84(0x132)](chalk[_0x12ec84(0xfc)]('2.'))+'\x20'+chalk[_0x12ec84(0x101)](chalk[_0x12ec84(0xfc)]('Round\x202\x20Eliminate'))+'\x20\x20'+chalk[_0x12ec84(0x12e)](chalk[_0x12ec84(0xfc)]('┃'))+'\x20'+chalk[_0x12ec84(0x132)](chalk[_0x12ec84(0xfc)]('•'))+'\x20'+chalk[_0x12ec84(0x101)](chalk[_0x12ec84(0xfc)]('Wa\x20:\x20085706058445'))+_0x12ec84(0x109)+chalk[_0x12ec84(0x12e)](chalk['bold']('┃'))+'\x0a'+chalk['blue'](chalk[_0x12ec84(0xfc)]('╚════════════════════▣◎▣════════════════════╝'))+'\x0a')));const _0x35685a=rs['question'](chalk[_0x12ec84(0x12e)](chalk[_0x12ec84(0xfc)]('[~]\x20Enter\x20a\x20Number\x20:\x20')));if(_0x35685a=='1'){const _0x3cf6ee=rs[_0x12ec84(0x100)](chalk[_0x12ec84(0x12e)](chalk[_0x12ec84(0xfc)](_0x12ec84(0xf7)))),_0x261c5e=rs[_0x12ec84(0x100)](chalk[_0x12ec84(0x12e)](chalk[_0x12ec84(0xfc)](_0x12ec84(0x111))));console[_0x12ec84(0x115)](chalk['blue'](chalk[_0x12ec84(0xfc)](_0x12ec84(0x102))));while(!![]){var _0x109add='3';const _0x42c4d9=await GoStumble(_0x109add,_0x3cf6ee);if(!_0x42c4d9){console[_0x12ec84(0x115)](chalk[_0x12ec84(0x126)](chalk['bold'](_0x12ec84(0xfe))));break;}else{if(_0x42c4d9[_0x12ec84(0x10f)](_0x12ec84(0x12d))){const _0x7207d2=JSON[_0x12ec84(0x110)](_0x42c4d9),_0x73244c=_0x7207d2[_0x12ec84(0x12d)][_0x12ec84(0x112)],_0x216a26=_0x7207d2[_0x12ec84(0x12d)][_0x12ec84(0x108)],_0x243060=_0x7207d2[_0x12ec84(0x12d)][_0x12ec84(0x117)];console[_0x12ec84(0x115)](chalk[_0x12ec84(0x12e)](chalk[_0x12ec84(0xfc)](_0x12ec84(0x127)+moment()[_0x12ec84(0xfa)](_0x12ec84(0x12a))+']\x20♨\x0a•>\x20'+(_0x12ec84(0x10c)+_0x73244c)+_0x12ec84(0x118)+(_0x12ec84(0x131)+_0x243060)+'\x0a•>\x20'+(_0x12ec84(0x10d)+_0x216a26)+_0x12ec84(0x11c)+_0x12ec84(0x10a)))),await delay(_0x261c5e);}else{if(_0x42c4d9==_0x12ec84(0x119)){console[_0x12ec84(0x115)](chalk['redBright'](chalk['bold'](_0x12ec84(0x11b))));break;}else{if(_0x42c4d9=='SERVER_ERROR')continue;}}}}}else{if(_0x35685a=='2'){const _0x5461e0=rs['question'](chalk['blue'](chalk[_0x12ec84(0xfc)]('[+]\x20Enter\x20your\x20auth\x20Keys\x20:\x20'))),_0x46b02e=rs['question'](chalk[_0x12ec84(0x12e)](chalk[_0x12ec84(0xfc)](_0x12ec84(0x111))));console[_0x12ec84(0x115)](chalk[_0x12ec84(0x12e)](chalk[_0x12ec84(0xfc)](_0x12ec84(0x102))));while(!![]){var _0x109add='2';const _0x3d309a=await GoStumble(_0x109add,_0x5461e0);if(!_0x3d309a){console['log'](chalk['redBright'](chalk[_0x12ec84(0xfc)](_0x12ec84(0xfe))));break;}else{if(_0x3d309a[_0x12ec84(0x10f)]('User')){const _0x315096=JSON['parse'](_0x3d309a),_0x2e33c6=_0x315096[_0x12ec84(0x12d)][_0x12ec84(0x112)],_0x54a8bf=_0x315096['User'][_0x12ec84(0xfd)],_0x2c7bb0=_0x315096[_0x12ec84(0x12d)][_0x12ec84(0x122)],_0x285109=_0x315096[_0x12ec84(0x12d)][_0x12ec84(0x108)];console[_0x12ec84(0x115)](chalk[_0x12ec84(0x12e)](chalk['bold'](_0x12ec84(0x127)+moment()[_0x12ec84(0xfa)](_0x12ec84(0x12a))+_0x12ec84(0x10e)+(_0x12ec84(0x10c)+_0x2e33c6)+'\x0a•>\x20'+(_0x12ec84(0x10d)+_0x285109)+'\x20\x20\x0a•>\x20'+_0x12ec84(0x10a)))),await delay(_0x46b02e);}else{if(_0x3d309a==_0x12ec84(0x119)){console[_0x12ec84(0x115)](chalk[_0x12ec84(0x126)](chalk[_0x12ec84(0xfc)](_0x12ec84(0x11b))));break;}else{if(_0x3d309a==_0x12ec84(0x120))continue;}}}}}}})());
+const fetch = require('node-fetch');
+const moment = require('moment');
+const chalk = require('chalk');
+const rs = require('readline-sync');
+const delay = require('delay');
+
+const GoStumble = (code, auth) => new Promise((resolve, reject) => {
+
+   fetch(`http://kitkabackend.eastus.cloudapp.azure.com:5010/round/finishv2/${code}`, {
+       method: 'GET',
+       headers: {
+          'authorization': auth,
+          'use_response_compression': 'true',
+          'Accept-Encoding': 'gzip',
+          'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 11; Infinix X6511B Build/RP1A.201005.001)'
+      }
+  })
+    .then(res => res.text())
+    .then(data => {
+      resolve(data);
+    })
+    .catch(err => {
+      reject(err);
+    });
+
+});
+
+(async () => {
+
+    console.log(chalk.magenta(chalk.bold(`
+██╗  ██╗███████╗ ██████╗████████╗ ██████╗ ██████╗ 
+██║  ██║██╔════╝██╔════╝╚══██╔══╝██╔═══██╗██╔══██╗
+███████║█████╗  ██║        ██║   ██║   ██║██████╔╝
+██╔══██║██╔══╝  ██║        ██║   ██║   ██║██╔══██╗
+██║  ██║███████╗╚██████╗   ██║   ╚██████╔╝██║  ██║
+╚═╝  ╚═╝╚══════╝ ╚═════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝
+${(chalk.blue(chalk.bold('╔════════════════════▣◎▣════════════════════╗')))}
+ ${(chalk.red(chalk.bold('[?]')))} ${(chalk.yellow(chalk.bold('Choose a Number')))}  ${(chalk.blue(chalk.bold('┃')))} ${(chalk.red(chalk.bold('•')))} ${(chalk.yellow(chalk.bold('Author : HectorV2')))}
+ ${(chalk.red(chalk.bold('1.')))} ${(chalk.yellow(chalk.bold('Round 3 Winner')))}    ${(chalk.blue(chalk.bold('┃')))} ${(chalk.red(chalk.bold('•')))} ${(chalk.yellow(chalk.bold('Discord : Vicenzo')))}
+ ${(chalk.red(chalk.bold('2.')))} ${(chalk.yellow(chalk.bold('Round 2 Eliminate')))} ${(chalk.blue(chalk.bold('┃')))} ${(chalk.red(chalk.bold('•')))} ${(chalk.yellow(chalk.bold('Wa : 085706058445')))}
+${(chalk.blue(chalk.bold('╚════════════════════▣◎▣════════════════════╝')))}
+`)));
+
+ const feature = rs.question(chalk.blue(chalk.bold('[~] Enter a Number : ')));
+
+ if (feature == '1') {
+
+    const auth = rs.question(chalk.blue(chalk.bold('[+] Enter your auth keys : ')));
+    const time = rs.question(chalk.blue(chalk.bold('[+] Enter Delay In Milisecond : ')));
+    console.log(chalk.blue(chalk.bold('■■■■■□□□')));
+
+    while (true) {
+
+        var code = '3';
+        const result = await GoStumble(code, auth);
+        if (!result) {
+
+            console.log(chalk.redBright(chalk.bold(`Auth Sudah Expired !`)));
+            break;
+
+        } else if (result.includes('User')) {
+
+            const data = JSON.parse(result);
+            const username = data.User.Username;
+            const trophy = data.User.SkillRating;
+            const crown = data.User.Crowns;
+ 
+     console.log(chalk.blue(chalk.bold(`\r
+  ♨ [${moment().format('HH:mm:ss')}] ♨
+•> ${(`Username : ${username}`)}
+•> ${(`Crown : ${crown}`)}
+•> ${(`Tropy : ${trophy}`)}  
+•> ${(`Status : ✓ Success`)}`)));
+        await delay(time)
+
+    } else if (result == 'BANNED') {
+
+        console.log(chalk.redBright(chalk.bold(`Your Account Has Been Banned !`)));
+        break;
+                
+    } else if (result == 'SERVER_ERROR') {
+
+        continue;
+                
+      }
+  }
+        
+ } else if (feature == '2') {
+
+    const auth = rs.question(chalk.blue(chalk.bold('[+] Enter your auth Keys : ')));
+    const time = rs.question(chalk.blue(chalk.bold('[+] Enter Delay In Milisecond : ')));
+    console.log(chalk.blue(chalk.bold('■■■■■□□□')));
+
+    while (true) {
+
+        var code = '2';
+        const result = await GoStumble(code, auth);
+        if (!result) {
+
+            console.log(chalk.redBright(chalk.bold(`Auth Sudah Expired !`)));
+            break;
+
+        } else if (result.includes('User')) {
+
+            const data = JSON.parse(result);
+            const username = data.User.Username;
+            const country = data.User.Country;
+            const exp = data.User.Experience;
+            const trophy = data.User.SkillRating;
+                 
+     console.log(chalk.blue(chalk.bold(`\r
+  ♨ [${moment().format('HH:mm:ss')}] ♨
+•> ${(`Username : ${username}`)}
+•> ${(`Tropy : ${trophy}`)}  
+•> ${(`Status : ✓ Success`)}`)));
+        await delay(time)
+
+    } else if (result == 'BANNED') {
+
+        console.log(chalk.redBright(chalk.bold(`Your Account Has Been Banned !`)));
+        break;
+                
+    } else if (result == 'SERVER_ERROR') {
+
+        continue;
+                
+      }
+  }
+  
+   
+}})();
+    
