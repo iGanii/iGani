@@ -1,1 +1,71 @@
-const _0x1a7dea=_0x205f;function _0x205f(_0x1fd4f7,_0x44ce05){const _0x49d6e3=_0x49d6();return _0x205f=function(_0x205fe0,_0x5e93c5){_0x205fe0=_0x205fe0-0x89;let _0x55713b=_0x49d6e3[_0x205fe0];return _0x55713b;},_0x205f(_0x1fd4f7,_0x44ce05);}function _0x49d6(){const _0x38f35c=['chalk','Status\x20:\x20✓\x20Success','GET','moment','http://kitkabackend.eastus.cloudapp.azure.com:5010/round/finishv2/3','Username\x20:\x20','49329HwJDoh','24957nrxLzw','559356ofkxnQ','Crowns','log','128782QEDnLa','200KldKtJ','SkillRating','\x0a~\x20\x20','text','includes','delay','BANNED','Crown\x20:\x20','Country\x20:\x20','readline-sync','format','chalk-rainbow','Your\x20Account\x20Has\x20Been\x20Banned','Auth\x20Sudah\x20Expired','parse','Country',']\x20\x20♨\x0a~\x20\x20','Trophy\x20:\x20','bgRed','4285jaqnoL','407560slsEVg','User','363612OhMDSG','HH:mm:ss','Enter\x20Auth\x20Keys\x20:\x20','greenBright','1996dbitcw','then','question','\x20\x20\x0a~\x20\x20','1030UDTJQf'];_0x49d6=function(){return _0x38f35c;};return _0x49d6();}(function(_0x488f05,_0x13cf26){const _0x59d6c2=_0x205f,_0x392c5c=_0x488f05();while(!![]){try{const _0x2cacfe=parseInt(_0x59d6c2(0xb2))/0x1+parseInt(_0x59d6c2(0x9d))/0x2+-parseInt(_0x59d6c2(0x89))/0x3+parseInt(_0x59d6c2(0x8d))/0x4*(parseInt(_0x59d6c2(0xb1))/0x5)+-parseInt(_0x59d6c2(0x9a))/0x6+parseInt(_0x59d6c2(0x98))/0x7*(-parseInt(_0x59d6c2(0x9e))/0x8)+-parseInt(_0x59d6c2(0x99))/0x9*(parseInt(_0x59d6c2(0x91))/0xa);if(_0x2cacfe===_0x13cf26)break;else _0x392c5c['push'](_0x392c5c['shift']());}catch(_0xd26b91){_0x392c5c['push'](_0x392c5c['shift']());}}}(_0x49d6,0x3688a));const fetch=require('node-fetch'),moment=require(_0x1a7dea(0x95)),chalk=require(_0x1a7dea(0x92)),rs=require(_0x1a7dea(0xa7)),delay=require(_0x1a7dea(0xa3)),chalkRainbow=require(_0x1a7dea(0xa9)),GoStumble=_0x337908=>new Promise((_0x337307,_0x5397a9)=>{const _0x14726b=_0x1a7dea;fetch(_0x14726b(0x96),{'method':_0x14726b(0x94),'headers':{'authorization':_0x337908}})[_0x14726b(0x8e)](_0x34be19=>_0x34be19[_0x14726b(0xa1)]())[_0x14726b(0x8e)](_0x1fe7c0=>{_0x337307(_0x1fe7c0);})['catch'](_0xf73d93=>{_0x5397a9(_0xf73d93);});});((async()=>{const _0x3fdc8d=_0x1a7dea;console[_0x3fdc8d(0x9c)](chalk['greenBright']('\x0a██╗\x20\x20██╗███████╗\x20██████╗████████╗\x20██████╗\x20██████╗\x20\x0a██║\x20\x20██║██╔════╝██╔════╝╚══██╔══╝██╔═══██╗██╔══██╗\x0a███████║█████╗\x20\x20██║\x20\x20\x20\x20\x20\x20\x20\x20██║\x20\x20\x20██║\x20\x20\x20██║██████╔╝\x0a██╔══██║██╔══╝\x20\x20██║\x20\x20\x20\x20\x20\x20\x20\x20██║\x20\x20\x20██║\x20\x20\x20██║██╔══██╗\x0a██║\x20\x20██║███████╗╚██████╗\x20\x20\x20██║\x20\x20\x20╚██████╔╝██║\x20\x20██║\x0a╚═╝\x20\x20╚═╝╚══════╝\x20╚═════╝\x20\x20\x20╚═╝\x20\x20\x20\x20╚═════╝\x20╚═╝\x20\x20╚═╝\x0a'));const _0x557272=rs[_0x3fdc8d(0x8f)](chalk[_0x3fdc8d(0x8c)](_0x3fdc8d(0x8b))),_0x4c9105=rs[_0x3fdc8d(0x8f)](chalk['greenBright']('Enter\x20Delay\x20In\x20Milisecond\x20:\x20'));console['log']('');while(!![]){const _0x7965a0=await GoStumble(_0x557272);if(!_0x7965a0)console[_0x3fdc8d(0x9c)](chalkRainbow(_0x3fdc8d(0xab)));else{if(_0x7965a0[_0x3fdc8d(0xa2)](_0x3fdc8d(0xb3))){const _0x30032c=JSON[_0x3fdc8d(0xac)](_0x7965a0),_0x28426b=_0x30032c[_0x3fdc8d(0xb3)]['Username'],_0x3dbe20=_0x30032c['User'][_0x3fdc8d(0xad)],_0xa76b64=_0x30032c[_0x3fdc8d(0xb3)][_0x3fdc8d(0x9f)],_0x2296b4=_0x30032c[_0x3fdc8d(0xb3)][_0x3fdc8d(0x9b)];console[_0x3fdc8d(0x9c)](chalk[_0x3fdc8d(0x8c)]('\x0d\x0a♨\x20\x20['+moment()[_0x3fdc8d(0xa8)](_0x3fdc8d(0x8a))+_0x3fdc8d(0xae)+(_0x3fdc8d(0xa6)+_0x3dbe20)+_0x3fdc8d(0xa0)+(_0x3fdc8d(0x97)+_0x28426b)+_0x3fdc8d(0x90)+(_0x3fdc8d(0xa5)+_0x2296b4)+_0x3fdc8d(0x90)+(_0x3fdc8d(0xaf)+_0xa76b64)+_0x3fdc8d(0xa0)+_0x3fdc8d(0x93))),await delay(_0x4c9105);}else{if(_0x7965a0==_0x3fdc8d(0xa4)){console[_0x3fdc8d(0x9c)](chalk[_0x3fdc8d(0xb0)](_0x3fdc8d(0xaa)));break;}}}}})());
+const fetch = require('node-fetch');
+const moment = require('moment');
+const chalk = require('chalk');
+const rs = require('readline-sync');
+const delay = require('delay');
+const chalkRainbow = require('chalk-rainbow')
+
+const GoStumble = (auth) => new Promise((resolve, reject) => {
+
+  fetch('http://kitkabackend.eastus.cloudapp.azure.com:5010/round/finishv2/3', {
+    method: 'GET',
+    headers: {
+      'authorization': auth
+    }
+  })
+    .then(res => res.text())
+    .then(data => {
+      resolve(data);
+    })
+    .catch(err => {
+      reject(err);
+    });
+
+});
+
+(async () => {
+
+  console.log(chalk.greenBright(`
+██╗ ██████╗  █████╗ ███╗   ██╗██╗
+██║██╔════╝ ██╔══██╗████╗  ██║██║
+██║██║  ███╗███████║██╔██╗ ██║██║
+██║██║   ██║██╔══██║██║╚██╗██║██║
+██║╚██████╔╝██║  ██║██║ ╚████║██║
+╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝
+`));
+
+  const auth = rs.question(chalk.greenBright('Enter Auth Keys : '));
+  const time = rs.question(chalk.greenBright('Enter Delay In Milisecond : '));
+  console.log('');
+
+  while (true) {
+
+    const result = await GoStumble(auth);
+    if (!result) {
+
+      console.log(chalk.redBright(`Auth Sudah Expired`));
+
+    } else if (result.includes('User')) {
+
+      const data = JSON.parse(result);
+      const username = data.User.Username;
+      const country = data.User.Country;
+      const trophy = data.User.SkillRating;
+      const crown = data.User.Crowns;
+
+      console.log(chalk.greenBright(`\r
+♨  [${moment().format('HH:mm:ss')}]  ♨
+~  ${(`Country : ${country}`)}
+~  ${(`Username : ${username}`)}  
+~  ${(`Crown : ${crown}`)}  
+~  ${(`Trophy : ${trophy}`)}
+~  ${(`Status : ✓ Success`)}`));
+      await delay(time)
+
+    } else if (result == 'BANNED') {
+      console.log(chalk.bgRed(`Your Account Has Been Banned`));
+      break;
+    }
+  }
+
+})();
