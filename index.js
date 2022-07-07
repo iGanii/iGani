@@ -3,7 +3,7 @@ const moment = require('moment');
 const chalk = require('chalk');
 const rs = require('readline-sync');
 const delay = require('delay');
-const chalkRainbow = require('chalk-rainbow') #jangandihapus
+const chalkRainbow = require('chalk-rainbow') //jangandihapus
 
 const GoStumble = (auth) => new Promise((resolve, reject) => {
 
